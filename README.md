@@ -18,6 +18,8 @@ En esta etapa hacemos los formularios de ingreso y registro, y ademas de darle e
 
 [5 - Formularios](https://github.com/Hexanima/MercadoLiebre-5-Formularios)
 
+[6 - Organizando Elementos](https://github.com/Hexanima/MercadoLiebre-6-Organizando)
+
 ## Como usar
 
 Luego de descargar los archivos, hay que ejecutar el siguiente comando desde la carpeta principal.
