@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/forms.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       rel="stylesheet"
@@ -14,7 +15,7 @@
   <body>
     <header>
       <div class="logo">
-        <a href="#"
+        <a href="/"
           ><img src="/images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre"
         /></a>
       </div>
@@ -43,10 +44,14 @@
         </ul>
         <ul>
           <li>
-            <a href="/register">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a>
+            <a href="/register"
+              >Creá tu cuenta <i class="fa-regular fa-id-card"></i
+            ></a>
           </li>
           <li>
-            <a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a>
+            <a href="/login"
+              >Ingresá <i class="fa-solid fa-right-to-bracket"></i
+            ></a>
           </li>
           <li>
             <a href=""
@@ -59,12 +64,33 @@
         <i class="fa-solid fa-bars"></i>
       </div>
     </header>
-    <img
-      class="banner"
-      src="/images/img-home-banner.jpg"
-      alt="Banner ofertas"
-      width="100%"
-    />
+    <main>
+      <h1>Ingresá</h1>
+      <form action="">
+        <span class="error">*Usuario y/o contraseña incorrectos</span>
+        <div class="form-data user">
+          <span class="error">*Ingresa un usuario</span>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Nombre de usuario"
+          />
+        </div>
+        <div class="form-data pass">
+          <span class="error">*Ingresa una contraseña</span>
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            placeholder="Contraseña"
+          />
+        </div>
+        <div class="formManagement">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </main>
     <footer>
       <article>
         <i class="fa-solid fa-credit-card"></i>
